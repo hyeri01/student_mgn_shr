@@ -16,12 +16,6 @@ public class Student {
 	}
 	
 
-	public Student(int kor, int eng, int math) {
-		this.kor = kor;
-		this.eng = eng;
-		this.math = math;
-	}
-
 	public Student(int stdNo, String stdName, int kor, int eng, int math) {
 		this.stdNo = stdNo;
 		this.stdName = stdName;
